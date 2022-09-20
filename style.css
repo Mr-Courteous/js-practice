@@ -1,0 +1,185 @@
+.aId{
+    text-align: center;
+}
+
+ /* this is calculator practice */
+
+ .calculator{
+     width: 390px;
+     background-color:lightpink;
+     margin:auto;
+ }
+.name{
+    text-align: center;
+}
+.column-one, .column-two, .column-three, .ec{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    width: 90%;
+    margin:auto;
+}
+
+.ec{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .ec{
+    display:flex;
+    justify-content: space-around;
+} */
+
+
+.columns-div{
+    width: 90%;
+}
+.columns{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    /* border: 1px solid blue; */
+}
+
+.equal-to{
+    margin-right: 43px;
+}
+
+.btn{
+    text-decoration: none;
+}
+
+
+#time{
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    color: red;
+
+}
+
+.d-name, .head{
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+  .list-one{
+      display: none;
+  }
+
+  #ham{
+      width: 30px;
+
+  }
+  #ham-c{
+      width: 15px;
+      display: none;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: 80px;
+    top: 280px;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+  .dicee-game-div{
+      text-align: center;
+  }
+  
+.player-div{
+    display: inline-block;
+    margin-right: 30px;
+
+}
+
+.player1-dice,.player2-dice{
+    width: 150px;
+}
+
+.refresh-button{
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 4rem;
+    color: #4ECCA3;
+}
+#play{
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 4rem;
+    color: greenyellow;
+}
+.play{
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 4rem;
+    color: blue;
+    border: none;
+    background-color: white;
+}
+
+.play:hover{
+    background-color: yellow;
+    
+}
+
+
+/* RPS */
+
+#rock, #paper, #scissors{
+    width: 200px;
+    padding: 50px;
+}
+
+#RPS{
+    text-align: center;
+}
+#house{
+    display: inline-block;
+}
+
+#result-house{
+    font-size: 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+
+}
